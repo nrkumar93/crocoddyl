@@ -9,6 +9,8 @@ import pinocchio
 
 WITHDISPLAY = 'display' in sys.argv or 'CROCODDYL_DISPLAY' in os.environ
 WITHPLOT = 'plot' in sys.argv or 'CROCODDYL_PLOT' in os.environ
+WITHDISPLAY = True
+WITHPLOT = True
 
 # Load robot
 robot = example_robot_data.load('talos')

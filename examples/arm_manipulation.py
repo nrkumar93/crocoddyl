@@ -8,6 +8,8 @@ import example_robot_data
 
 WITHDISPLAY = 'display' in sys.argv or 'CROCODDYL_DISPLAY' in os.environ
 WITHPLOT = 'plot' in sys.argv or 'CROCODDYL_PLOT' in os.environ
+WITHDISPLAY = True
+WITHPLOT = True
 
 # In this example test, we will solve the reaching-goal task with the Talos arm.
 # For that, we use the forward dynamics (with its analytical derivatives)
